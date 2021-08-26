@@ -4,3 +4,5 @@ https://services.gradle.org/distributions/
 https://www.runoob.com/java/java-regular-expressions.html
 - :hearts: 测试工具
 http://c.runoob.com/front-end/854
+- :hearts: 小细节
+- git pull --rebase origin master
