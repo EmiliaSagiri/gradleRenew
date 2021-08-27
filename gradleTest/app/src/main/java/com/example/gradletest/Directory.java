@@ -54,7 +54,7 @@ public class Directory {
             new File(d.getPath().replaceFirst(directoryPath, savePath)).mkdirs();
         }
         for (File f : files) {
-            com.example.gradletest.File.copy(f.getPath(), f.getPath().replaceFirst(directoryPath, savePath), false);
+            Fileutil.copy(f.getPath(), f.getPath().replaceFirst(directoryPath, savePath), false);
         }
     }
 }
